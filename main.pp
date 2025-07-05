@@ -1,8 +1,9 @@
 VAR
-    Alter  : Integer;
-
+    Alter : Integer;
+    iNPUT : String;
 begin;
-    Alter  :=  17;
+    ReadLn(Alter);
+    WriteLn(iNPUT);
     WriteLn(' kommen sie mal her !');
     if Alter >= 18 then
         WriteLn('sie dürfen Eintreten !')
